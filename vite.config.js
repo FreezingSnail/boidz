@@ -1,5 +1,7 @@
 
-// vite.config.js
-export default {
-  root: './', // Adjust this if your project has a specific structure
-};
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: 'boidz', // Replace <REPO_NAME> with the name of your GitHub repository
+});
+
