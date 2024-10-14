@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Use ES Modules
+    "target": "ES6", // Or "ESNext" for more modern syntax
+    "moduleResolution": "node", // For resolving imports
+    "outDir": "./dist", // Ensure output is placed in the dist directory
+    "strict": true
+  }
+}
